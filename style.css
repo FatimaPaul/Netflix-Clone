@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cover {
+  width: 100%;
+  height: 93vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.683),
+      rgba(3, 0, 0, 0.573)
+    ),
+    url(images/netflix-cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  margin: 0px 10% 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+
+.logo {
+  width: 140px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn button {
+  padding: 8px 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+main {
+  margin: 15% 10% 0 10%;
+}
+.head {
+  color: white;
+  text-align: center;
+}
+
+.head h1 {
+  font-size: 3rem;
+}
+
+.head p {
+  font-size: 1.3rem;
+}
+
+.head h1,
+p {
+  margin-bottom: 1.5%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+form .inp {
+  width: 55%;
+  margin-right: 1%;
+}
+
+form input {
+  width: 100%;
+  font-size: 1.5rem;
+  border: 0.1rem solid white;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  outline: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: none;
+  outline: 0.1rem solid white;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+form .btn button {
+  font-size: 1.5rem;
+}
+
+.btn button:hover {
+  background-color: rgb(140, 2, 2);
+}
+
+.line {
+  width: 100%;
+  height: 1vh;
+  background-color: grey;
+}
+
+/* TV section */
+
+.section-1 {
+  width: 100%;
+  background-color: black;
+  color: rgb(222, 219, 219);
+  padding: 10%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sub-section-1 {
+  width: 50%;
+}
+
+.sub-section-1 h1 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.sub-section-1 p {
+  font-size: 1.6rem;
+}
+
+.sub-section-2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(images/int3.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sub-section2-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-2-content {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.section-2 {
+  width: 100%;
+  background-color: black;
+  color: rgb(222, 219, 219);
+  padding: 10%;
+}
+
+.sub-section2-1 {
+  width: 50%;
+}
+
+.sub-section2-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.sub-section2-2 {
+  width: 50%;
+}
+
+.sub-section2-2 h1 {
+  font-size: 3rem;
+}
+
+.sub-section2-2 p {
+  font-size: 1.7rem;
+}
+
+.section3 {
+  width: 100%;
+  background-color: black;
+  color: rgb(222, 219, 219);
+  padding: 10%;
+}
+
+.section-3-content {
+  width: 100%;
+  align-items: center;
+}
+
+.sub-section3-1 {
+  width: 40%;
+}
+
+.sub-section3-1 h1 {
+  font-size: 3rem;
+}
+
+.sub-section2-2 p {
+  font-size: 1.6rem;
+}
+
+.section-4 {
+  width: 100%;
+  background-color: black;
+  color: rgb(222, 219, 219);
+  padding: 10%;
+}
+
+.section-4-content {
+  margin: 0 10% 0 10%;
+}
+
+.section-4 h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.questions div {
+  padding: 20px 15px 20px 15px;
+  font-size: 2rem;
+  background-color: rgb(42, 41, 41);
+  color: white;
+  margin-bottom: 2%;
+}
+
+.questions div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: rgb(222, 219, 219);
+  padding: 10%;
+}
+
+.footer-content {
+  margin: 0 20% 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer li {
+  margin-bottom: 10%;
+  text-decoration: underline;
+}
+
+footer li::marker {
+  content: "";
+}
+
+footer button {
+  margin: 3% 20% 0 10%;
+  padding: 8px 15px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+footer p {
+  margin: 3% 20% 0 10%;
+  color: grey;
+}
+@media only screen and (max-width: 600px) {
+  .cover {
+    height: 90vh;
+  }
+  .logo {
+    width: 100px;
+  }
+
+  main {
+    margin: 30% 5% 0 5%;
+  }
+
+  .head h1 {
+    font-size: 2rem;
+  }
+
+  .head p {
+    font-size: 1rem;
+  }
+
+  .head h1,
+  p {
+    margin-bottom: 3%;
+  }
+
+  form {
+    display: block;
+    width: 100%;
+  }
+
+  form .inp {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-1 {
+    padding: 20% 5% 20% 5%;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .sub-section-1 {
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .sub-section-1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .sub-section-1 p {
+    font-size: 1rem;
+  }
+
+  .sub-section-2 {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+      url(images/int3-f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .sub-section-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-2 {
+    padding: 20% 5% 20% 5%;
+  }
+
+  .section-2-content {
+    display: block;
+  }
+
+  .sub-section2-1 {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .sub-section2-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sub-section2-2 h1 {
+    font-size: 1.8rem;
+  }
+
+  .sub-section2-2 p {
+    font-size: 1rem;
+  }
+
+  .section3 {
+    padding: 20% 5% 20% 5%;
+  }
+
+  .sub-section3-1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .sub-section3-1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .sub-section2-2 p {
+    font-size: 1rem;
+  }
+
+  .section-4-content {
+    margin: 0 3% 0 3%;
+  }
+
+  .section-4 h1 {
+    font-size: 1.5rem;
+  }
+
+  .questions div {
+    font-size: 1rem;
+  }
+}
